@@ -1,0 +1,110 @@
+.header {
+	display: grid;
+	grid-template-columns: 68% 32%;
+	margin: 0px;
+}
+
+.events {
+	border: 2px solid black;
+}
+
+.events h2{
+	font-size: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+.add {
+	border: 2px solid black;
+	border-left: none;
+}
+
+.add h4 {
+	font-size: 17px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 3px;
+}
+
+.location {
+	margin-top: 5px;
+	border: 2px solid black;
+	display: grid;
+	grid-template-columns: 15% 85%;
+	grid-template-rows: 40px 40px;
+}
+
+.certain-loc, .calendar {
+	font-size: 18px;
+	margin-top: 8px;
+}
+
+.loc-icon img {
+	width: 30px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.calen-icon img {
+	width: 30px;
+	margin-top: 5px;
+	margin-left: 11px;
+}
+
+.elems {
+	border: 2px solid black;
+	height: 400px;
+	margin-top: 5px;
+	overflow-y: scroll;
+}
+
+/*Just deleting markers*/
+
+#root li {
+    list-style-type: none;
+}
+
+.footer {
+	margin-top: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 70% 30%;
+	font-size: 18px;
+}
+
+.contacts, .cal, .clubs, .more {
+	border: 2px solid black;
+	border-left: none;
+}
+
+.evnt {
+	border: 2px solid black;
+}
+
+.icon img{
+	width: 40px;
+	margin-left: 12px;
+	margin-top: 4px;
+}
+
+.footer span {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.evnt span {
+	margin-left: 8px;
+}
+
+.contacts span {
+	margin-left: 2px;
+}
+
+.clubs span {
+	margin-left: 10px;
+}
+
+.more span {
+	margin-left: 11px;
+}
